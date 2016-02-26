@@ -1,0 +1,5 @@
+package database;
+
+public enum RequestType {
+	ADD_USER,MODIFY_USER,GET_MATCHES,AUTHENTICATE_USER, SIGN_IN, INVALID, VALID
+}

@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kindling.com.helloworld.SettingsActivity"
+    android:theme="@android:style/Theme.Light.WallpaperSettings"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+
+    <ImageView
+        android:id="@+id/imageTopView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/settings_header"/>
+
+    <ImageView
+        android:id="@+id/imageTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/settings_title" />
+
+    <ImageView
+        android:id="@+id/ageRangeTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/set_age_range_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageRelativeLayout">
+
+        <ImageView
+            android:id="@+id/ageBackgroundBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/settings_section_box" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/intelligenceRangeTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:src="@drawable/intelligence_settings_title" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/intelligenceRelativeLayout">
+
+        <ImageView
+            android:id="@+id/intelligenceBackgroundBox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:src="@drawable/settings_section_box" />
+
+    </RelativeLayout>
+
+</LinearLayout>

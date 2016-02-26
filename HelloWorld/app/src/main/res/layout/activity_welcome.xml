@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/above_owl_welcome_padding"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="kindling.com.helloworld.WelcomeActivity"
+    android:theme="@android:style/Theme.NoTitleBar"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/largeOwlIcon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:src="@drawable/kindling_owl_large"/>
+
+    <ImageButton
+        android:id="@+id/loginButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/login_btn" />
+
+    <ImageButton
+        android:id="@+id/signupButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="45px"
+        android:src="@drawable/signup_btn" />
+
+    <ImageButton
+        android:id="@+id/playWithoutAccountButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="35px"
+        android:src="@drawable/noaccount_btn" />
+
+</LinearLayout>
